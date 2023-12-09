@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FEFAE0;
+    /* background-color: lavenderblush; */
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+ section .btn{
+    background-color: #5F6F52;
+    font-size: 3rem;
+    padding: 10px;
+    color: lemonchiffon;
+    margin-bottom: 20px;
+    transition: .3s;
+    font-family: 'Young Serif', serif;
+    border-radius: 20px;
+    box-shadow: 15px 12px 28px -5px rgb(52 52 52);
+
+ }
+ section .btn:hover{
+    background-color: #4e5b43;
+    color: lemonchiffon;
+    
+ }
+
+ section #txt{
+    background-color: #A9B388;
+    padding: 4% 10px;
+    border: 2px solid rgb(104, 124, 110);
+    visibility:hidden;
+    font-size: 1.4rem;
+    font-family: 'Young Serif', serif;
+    color: lemonchiffon;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 15px 12px 28px -10px rgb(52 52 52);
+ }
+section #byWhoo{
+    padding: 12px 8%;
+    border: 2px solid rgb(113, 91, 47);
+    margin-top: 10px;
+    visibility:hidden;
+    display: inline-flex;
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    background-color: rgb(131, 104, 77);
+    color: papayawhip;
+    border-radius: 25px;
+    box-shadow: 15px 12px 28px -10px rgb(52 52 52);
+}
+section h1{
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-shadow: 13px 11px 17px rgb(52 52 52);
+}
+
+
